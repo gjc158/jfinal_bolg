@@ -13,14 +13,14 @@
 			<div class="manage_logo"><a href="http://www.jfinal.com">JFinal web framework</a></div>
 			<div id="nav">
 				<ul>
-					<li><a href="/" ><b>首页</b></a></li>
-					<li><a href="/blog"><b>Blog管理</b></a></li>
+					<li><a href="/jfinal_0519/index" ><b>首页</b></a></li>
+					<li><a href="/jfinal_0519/blog"><b>Blog管理</b></a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="main">
 <h1>Blog管理&nbsp;&nbsp;
-<a href="/blog/add">创建Blog</a>
+<a href="/jfinal_0519/blog/add">创建Blog</a>
 </h1>
 <div class="table_box">
 	<table class="list">
@@ -35,8 +35,8 @@
 				<td style="text-align:left;"><c:out value="${blog.id}" default=""/></td>
 				<td style="text-align:left;">${blog.title}</td>
 				<td style="text-align:left;">
-					&nbsp;&nbsp;<a href="/blog/delete/${blog.id}">删除</a>
-					&nbsp;&nbsp;<a href="/blog/edit/${blog.id}">修改</a>
+					&nbsp;&nbsp;<a href="/jfinal_0519/blog/delete/${blog.id}">删除</a>
+					&nbsp;&nbsp;<a href="/jfinal_0519/blog/edit/${blog.id}">修改</a>
 				</td>
 			</tr>
 			</c:forEach>
@@ -45,7 +45,7 @@
 	
 	<c:set var="currentPage" value="${blogPage.pageNumber}" />
 	<c:set var="totalPage" value="${blogPage.totalPage}" />
-	<c:set var="actionUrl" value="/blog/" />
+	<c:set var="actionUrl" value="/jfinal_0519/blog/" />
 	<c:set var="urlParas" value="" />
 	<%@ include file="../common/_paginate.jsp"%>
 	

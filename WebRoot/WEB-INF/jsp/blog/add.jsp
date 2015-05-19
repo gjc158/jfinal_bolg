@@ -12,7 +12,7 @@
 			<div class="manage_logo"><a href="http://www.jfinal.com">JFinal web framework</a></div>
 			<div id="nav">
 				<ul>
-					<li><a href="/final_0519"><b>首页</b></a></li>
+					<li><a href="/final_0519/index"><b>首页</b></a></li>
 					<li><a href="/final_0519/blog"><b>Blog管理</b></a></li>
 				</ul>
 			</div>

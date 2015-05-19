@@ -12,8 +12,8 @@
 			<div class="manage_logo"><a href="http://www.jfinal.com">JFinal web framework</a></div>
 			<div id="nav">
 				<ul>
-					<li><a href="/"><b>首页</b></a></li>
-					<li><a href="/blog"><b>Blog管理</b></a></li>
+					<li><a href="/jfinal_0519/index"><b>首页</b></a></li>
+					<li><a href="/jfinal_0519/blog"><b>Blog管理</b></a></li>
 				</ul>
 			</div>
 		</div>
@@ -23,7 +23,7 @@
 	<p>欢迎来到 JFinal极速开发世界！</p>
 	<br/><br/><br/>
 	本Demo采用JSP 作为视图文件，您还可以使用FreeMarker、Velocity或自定义类型视图。
-	点击<a href="/blog"><b>此处</b></a>开始试用Demo。
+	点击<a href="/jfinal_0519/blog"><b>此处</b></a>开始试用Demo。
 	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </div>
